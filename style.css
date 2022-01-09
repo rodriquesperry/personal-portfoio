@@ -122,3 +122,53 @@ nav .menuBtn,
   transition: all 0.3s ease;
   display: none;
 }
+
+nav .menuBtn {
+  color: var(--primary-color);
+}
+
+nav.sticky .menuBtn {
+  color: var(--white-color);
+}
+
+.navbar .menu .menuBtn {
+  color: var(--white-color);
+}
+
+/* home section styleing */
+.home {
+  height: 100vh;
+  width: 100%;
+  background: url("img/IMG-1561\ copy.png") no-repeat;
+  /* background-size: contain; */
+  background-position: 95% center;
+  background-attachment: fixed;
+}
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 88%;
+  height: 100%;
+  margin: auto;
+}
+
+.text-one {
+  font-size: 3rem;
+}
+
+.text-two {
+  font-size: 2.5rem;
+}
+
+#name {
+  color: var(--primary-color);
+  font-family: "Josefin Slab", serif;
+  font-size: 3rem;
+}
+
+.text-three,
+.text-four {
+  font-size: 2.5rem;
+}
