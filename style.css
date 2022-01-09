@@ -45,6 +45,7 @@ nav {
   padding: 20px 0;
   z-index: 999;
   transition: all 0.3s ease;
+  background-color: #f1f4f9;
 }
 
 nav.sticky {
@@ -146,13 +147,16 @@ nav.sticky .menuBtn {
 }
 
 .home-content {
+  padding-top: 8rem;
+}
+
+.content {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 88%;
+  width: 89%;
   height: 100%;
   margin: auto;
-  padding-top: 8rem;
 }
 
 .text-one {
@@ -172,4 +176,8 @@ nav.sticky .menuBtn {
 .text-three,
 .text-four {
   font-size: 3.5rem;
+}
+
+.about {
+  padding: 2rem 0;
 }
