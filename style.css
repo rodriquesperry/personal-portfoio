@@ -7,6 +7,7 @@
   box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
+  color: #4c2827;
 }
 
 :root {
@@ -37,8 +38,8 @@
 
 .about,
 .projects {
-  padding: 2rem 0;
-  margin: 3rem 0 2rem;
+  /* padding: 2rem 0; */
+  margin: 1.5rem 0 2rem;
 }
 
 body {
@@ -52,6 +53,10 @@ body {
   width: 89%;
   height: 100%;
   margin: auto;
+}
+
+.content-header {
+  padding: 2rem 0;
 }
 
 /* home section styleing */
@@ -81,7 +86,7 @@ nav {
   padding: 20px 0;
   z-index: 999;
   transition: all 0.3s ease;
-  background-color: #f1f4f9;
+  /* background-color: #f1f4f9; */
 }
 
 nav.sticky {
@@ -170,6 +175,11 @@ nav.sticky .menuBtn {
 
 .navbar .menu .menuBtn {
   color: var(--white-color);
+}
+
+#projects {
+  position: relative;
+  background-color: #f1f4f9;
 }
 
 .text-one,
