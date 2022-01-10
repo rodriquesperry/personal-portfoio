@@ -15,11 +15,7 @@
   --white-color: #fff;
 }
 
-body {
-  font-family: "Ubuntu", sans-serif;
-}
-
-/* Custom Scroll Bar CSS */
+/* Custom Scroll Bar CSS  Start*/
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -36,6 +32,46 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary-color);
+}
+/* Custom Scroll Bar CSS  End*/
+
+.about,
+.projects {
+  padding: 2rem 0;
+  margin: 3rem 0 2rem;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 89%;
+  height: 100%;
+  margin: auto;
+}
+
+/* home section styleing */
+.home {
+  height: 100vh;
+  width: 100%;
+  background: url("img/IMG-1561\ copy.png") no-repeat;
+  background-position: 95% 90%;
+  background-attachment: fixed;
+  background-color: #f1f4f9;
+}
+
+.home-content {
+  padding-top: 8rem;
+}
+
+#name {
+  color: var(--primary-color);
+  font-family: "Josefin Slab", serif;
+  font-size: 4rem;
 }
 
 /* Navber styling */
@@ -136,48 +172,15 @@ nav.sticky .menuBtn {
   color: var(--white-color);
 }
 
-/* home section styleing */
-.home {
-  height: 100vh;
-  width: 100%;
-  background: url("img/IMG-1561\ copy.png") no-repeat;
-  background-position: 95% 90%;
-  background-attachment: fixed;
-  background-color: #f1f4f9;
-}
-
-.home-content {
-  padding-top: 8rem;
-}
-
-.content {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 89%;
-  height: 100%;
-  margin: auto;
-}
-
-.text-one {
-  font-size: 4rem;
+.text-one,
+.text-three {
+  font-size: 2rem;
 }
 
 .text-two {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
-#name {
-  color: var(--primary-color);
-  font-family: "Josefin Slab", serif;
-  font-size: 4rem;
-}
-
-.text-three,
 .text-four {
-  font-size: 3.5rem;
-}
-
-.about {
-  padding: 2rem 0;
+  font-size: 1.5rem;
 }
